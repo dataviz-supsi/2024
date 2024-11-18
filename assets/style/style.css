@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	background-color: #fbfbfb;
+	margin:3em;
+	font-size: 16px;
+	font-family: "Times New Roman", Serif;
+}
+a{
+	text-decoration: none;
+	color:blue;
+}
+a:hover{
+	text-decoration: underline;
+}
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 1em;
+}
+.project {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+.author, .name{
+	width: 450px;
+}
+h1{
+	font-size:  1rem;
+	margin: 0 0 1em;
+}
+h2{
+	font-size:  1rem;
+	margin: 0 0 1em;
+}
+p{
+	margin:0;
+}
+footer{
+	margin:0 0 0 0;
+}
+.link {
+	margin-left: -1.25em;
+}
+.link:before {
+	display: inline-block;
+	width: 1.25em;
+	content: "→";
+}
+hr{
+	opacity: 0.2;
+	margin:1em 0 1em 0;
+}
+@media only screen and (max-width: 600px) {
+	.project {
+		display: block;
+	}
+	.author, .name{
+		display: block;
+		width: 100%;
+	}
+}

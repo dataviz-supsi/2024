@@ -82,6 +82,34 @@ function highlight(){ // dv1
     })
 }
 
+// =================
+// add the buttons that switch between different images
+
+
+const BUTTON1 = document.getElementById("button-id1")
+const BUTTON2 = document.getElementById("button-id2")
+
+const DV_BOX = document.getElementById("dv-box")
+const CAPTION = document.getElementById("dv-caption")
+
+BUTTON1.addEventListener("click", () => {
+    DV_BOX.src = "assets/images/01.png"
+    DV_BOX.alt = "alternative text of the dv n. 1"
+    CAPTION.innerText = "caption of the dv n. 1"
+
+    BUTTON1.style.opacity = 0.4;
+    BUTTON2.style.opacity = 1;
+})
+
+BUTTON2.addEventListener("click", () => {
+    DV_BOX.src = "assets/images/02.png"
+    DV_BOX.alt = "alternative text of the dv n. 2"
+    CAPTION.innerText = "caption of the dv n. 2"
+
+    BUTTON1.style.opacity = 1;
+    BUTTON2.style.opacity = 0.4;
+})
+
 
 // =================
 // page (and iframe) load

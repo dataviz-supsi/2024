@@ -82,9 +82,22 @@ function highlight(){ // dv1
     })
 }
 
+
+// =================
+// button
+
+const img_1_button = document.getElementById("dv_1")
+
+console.log(img_1_button)
+
+
+
+
+
 // =================
 // page (and iframe) load
 
 window.addEventListener("load", function(){
     highlight()
 })
+

@@ -39,12 +39,12 @@ Sed enim ut sem viverra aliquet eget sit. Iaculis at erat pellentesque adipiscin
 ### Title of the data visualization n. 1 
 Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus.
 
-[<img src="assets/images/03.png" width="500" alt="Placeholder image">]()
+[<img src="assets/images/03.png" width="800" alt="Placeholder image">]()
 
 ### Title of the data visualization n. 2
 Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus.
 
-[<img src="assets/images/04.png" width="500" alt="Placeholder image">]()
+[<img src="assets/images/04.png" width="800" alt="Placeholder image">]()
 
 
 ## Key findings

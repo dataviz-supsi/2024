@@ -13,6 +13,8 @@ function load_menu(){
         }
     ]
 
+    pages.sort((a, b) => b.link - a.link)
+
     for (let x = 0; x < pages.length; x++){
         container.innerHTML += "<li><a class='link' href=https://dataviz-supsi.github.io/" + pages[x].link + ">" + pages[x].link +" </a></li>"
     }                

@@ -32,8 +32,12 @@ li {
 	width: 100%;
 }
 .author, .name{
-	width: 450px;
+	width: 480px;
 }
+.author {
+	padding-right: 1rem;
+}
+
 h1{
 	font-size:  1rem;
 	margin: 0 0 1em;
